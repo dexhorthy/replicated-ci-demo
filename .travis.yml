@@ -6,8 +6,7 @@ branches:
   only:
     - master
     - release
-
-
+    
 deploy:
   - provider: script
     script: make deps-vendor-cli release
